@@ -1,4 +1,43 @@
 <resources>
     <string name="app_name">ContactStudents</string>
     <string name="ivLogo" />
+    <string name="ver_mais">VER MAIS</string>
+    <string name="ver_mais_btn">VER MAIS</string>
+
+
+    <!--Frases-->
+    <string name="frase_and">"Você só me copia!"</string>
+    <string name="frase_gab">"Me dá um pedaço aew ou..."</string>
+    <string name="frase_bre">"Vocês são muitos chatos!"</string>
+    <string name="frase_vin">"Essa dae é dahora"</string>
+    <string name="frase_ren">"Minasul"</string>
+    <string name="frase_lau">"Partiu barretão"</string>
+    <string name="frase_ped">"Sou o mais inteligente da sala"</string>
+    <string name="frase_cam">"Esse rodapé foi uma merda de fazer"</string>
+    <string name="frase_mar">"Quem é Marcello?"</string>
+    <string name="frase_sam">"zzZZZzzZzz..."</string>
+    <string name="frase_reg">"Mas o jacaré fugiu?"</string>
+    <string name="frase_bru">"Você é burro demais!"</string>
+    <string name="frase_lui">"01010101010"</string>
+    <string name="frase_ang">"Constraint Layout"</string>
+
+
+    <!--Name-->
+    <string name="nome_and">Anderson Silva</string>
+    <string name="nome_gab">Gabriel Alcantara</string>
+    <string name="nome_bre">Breno Cornélio</string>
+    <string name="nome_vin">Vinícius Rocha</string>
+    <string name="nome_ren">Renan Guimarães</string>
+    <string name="nome_lau">Lauro Vinicius</string>
+    <string name="nome_ped">Pedro Otávio</string>
+    <string name="nome_cam">Camilo Otávio</string>
+    <string name="nome_mar">Marcello Marques</string>
+    <string name="nome_sam">Samuel Rodrigues</string>
+    <string name="nome_reg">Régis Diniz</string>
+    <string name="nome_bru">Bruno Henrique</string>
+    <string name="nome_lui">Luís Fernando</string>
+    <string name="nome_ang">Angelo Mesquita</string>
+
+
+
 </resources>

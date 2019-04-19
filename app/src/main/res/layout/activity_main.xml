@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:elevation="6dp"
+            android:translationZ="4dp">
+
+            <ImageView
+                android:id="@+id/ivAndS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/andsilva" />
+
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameAndS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_and"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseAnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_and"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivGabA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/gabalcant"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnG"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameGabA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_gab"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseGab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_gab"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivBreC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/brencorn"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnB"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameBreC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_bre"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseBre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_bre"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivSamN"
+                android:layout_width="wrap_content"
+                android:layout_height="400sp"
+                android:contentDescription="TODO"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/samnascm" />
+
+            <Button
+                android:id="@+id/btnS"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameSamN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_sam"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseSam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_sam"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivLauV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/lauvin"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnL"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameLauV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_lau"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseLau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_lau"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivPedO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/pedota"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnP"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNamePedO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_ped"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFrasePed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_ped"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivCamO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/camota"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameCamO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_cam"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseCam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_cam"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivRegD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/regdin"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnR"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameRegD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_reg"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_reg"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivRenG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/reng"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnRn"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameRenG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_ren"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseRen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_ren"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivLuiF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/luisfernando"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnLf"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameLuiF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_lui"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseLui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_lui"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivMarM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/marmar"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnM"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameMarM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_mar"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseMar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_mar"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivVinR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/vinrocha"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnV"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameVinR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_vin"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseVin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_vin"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivBruH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/brunhen"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnBh"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameBruH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_bru"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseBru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_bru"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:translationZ="4dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:id="@+id/ivAngM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/angmes"
+                android:contentDescription="TODO" />
+
+            <Button
+                android:id="@+id/btnAm"
+                android:layout_width="145dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/ver_mais_btn"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvNameAngM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="70dp"
+                android:text="@string/nome_ang"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFraseAng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="40dp"
+                android:text="@string/frase_ang"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
