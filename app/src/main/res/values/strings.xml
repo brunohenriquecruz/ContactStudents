@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ContactStudents</string>
+    <string name="app_name">contSi</string>
     <string name="ivLogo" />
     <string name="ver_mais">VER MAIS</string>
     <string name="ver_mais_btn">VER MAIS</string>
@@ -38,6 +38,14 @@
     <string name="nome_lui">Luís Fernando</string>
     <string name="nome_ang">Angelo Mesquita</string>
 
+    <!--Menu-->
 
+    <string name="menu_add">Adicionar</string>
+    <string name="menu_ed">Editar</string>
+    <string name="menu_del">Apagar</string>
+    <string name="menu_help">Ajuda</string>
+
+    <!--TextView-->
+    <string name="tvMenu" />
 
 </resources>
