@@ -21,7 +21,21 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".NextScreen"></activity>
+        <activity android:name=".NextScreen" />
+        <activity android:name=".Anderson" />
+        <activity android:name=".Gabriel" />
+        <activity android:name=".luis" />
+        <activity android:name=".Samuel" />
+        <activity android:name=".Breno" />
+        <activity android:name=".Bruno" />
+        <activity android:name=".Pedro" />
+        <activity android:name=".Camilo" />
+        <activity android:name=".Renan" />
+        <activity android:name=".Regis" />
+        <activity android:name=".Marcello" />
+        <activity android:name=".Lauro" />
+        <activity android:name=".Vinicius" />
+        <activity android:name=".Angelo"></activity>
     </application>
 
 </manifest>

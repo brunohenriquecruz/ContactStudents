@@ -40,12 +40,14 @@
 
     <!--Menu-->
 
-    <string name="menu_add">Adicionar</string>
+    <string name="menu_add">Cadastrar</string>
     <string name="menu_ed">Editar</string>
     <string name="menu_del">Apagar</string>
     <string name="menu_help">Ajuda</string>
 
     <!--TextView-->
     <string name="tvMenu" />
+    <string name="contatos">Contatos</string>
+    <string name="competencias">Competências</string>
 
 </resources>
