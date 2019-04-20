@@ -38,7 +38,41 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         btnG = (Button) findViewById(R.id.btnG);
         btnG.setOnClickListener(this);
 
+        btnAm = (Button) findViewById(R.id.btnAm);
+        btnAm.setOnClickListener(this);
 
+        btnB = (Button) findViewById(R.id.btnB);
+        btnB.setOnClickListener(this);
+
+        btnBh = (Button) findViewById(R.id.btnBh);
+        btnBh.setOnClickListener(this);
+
+        btnC = (Button) findViewById(R.id.btnC);
+        btnC.setOnClickListener(this);
+
+        btnL = (Button) findViewById(R.id.btnL);
+        btnL.setOnClickListener(this);
+
+        btnLf = (Button) findViewById(R.id.btnLf);
+        btnLf.setOnClickListener(this);
+
+        btnM = (Button) findViewById(R.id.btnM);
+        btnM.setOnClickListener(this);
+
+        btnR = (Button) findViewById(R.id.btnR);
+        btnR.setOnClickListener(this);
+
+        btnRg = (Button) findViewById(R.id.btnRn);
+        btnRg.setOnClickListener(this);
+
+        btnV = (Button) findViewById(R.id.btnV);
+        btnV.setOnClickListener(this);
+
+        btnS = (Button) findViewById(R.id.btnS);
+        btnS.setOnClickListener(this);
+
+        btnP = (Button) findViewById(R.id.btnP);
+        btnP.setOnClickListener(this);
 
     }
 
@@ -87,78 +121,72 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
                 i = new Intent(MainActivity.this, Gabriel.class);
                 startActivity(i);
                 break;
+
+            case R.id.btnB:
+                i = new Intent(MainActivity.this, Breno.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnBh:
+                i = new Intent(MainActivity.this, Bruno.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnLf:
+                i = new Intent(MainActivity.this, luis.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnL:
+                i = new Intent(MainActivity.this, Lauro.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnV:
+                i = new Intent(MainActivity.this, Vinicius.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnS:
+                i = new Intent(MainActivity.this, Samuel.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnC:
+                i = new Intent(MainActivity.this, Camilo.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnR:
+                i = new Intent(MainActivity.this, Regis.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnRn:
+                i = new Intent(MainActivity.this, Renan.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnP:
+                i = new Intent(MainActivity.this, Pedro.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnAm:
+                i = new Intent(MainActivity.this, Angelo.class);
+                startActivity(i);
+                break;
+
+            case R.id.btnM:
+                i = new Intent(MainActivity.this, Marcello.class);
+                startActivity(i);
+                break;
         }
 
 
 
-//
-//            case R.id.btnBruno:
-//                Intent br = new Intent(MainActivity.this, verMaisBruno_activity.class);
-//                startActivity(br);
-//                break;
-//
-//            case R.id.btnCamilo:
-//                Intent c = new Intent(MainActivity.this, verMaisCamilo_activity.class);
-//                startActivity(c);
-//                break;
-//
-//            case R.id.btnGabriel:
-//                Intent g = new Intent(MainActivity.this, verMaisGabriel_activity.class);
-//                startActivity(g);
-//                break;
-//
-//            case R.id.btnLauro:
-//                Intent l = new Intent(MainActivity.this, verMaisLauro_activity.class);
-//                startActivity(l);
-//                break;
-//
-//            case R.id.btnLuis:
-//                Intent lu = new Intent(MainActivity.this, verMaisLuis_activity.class);
-//                startActivity(lu);
-//                break;
-//
-//            case R.id.btnMarcelo:
-//                Intent m = new Intent(MainActivity.this, verMaisMarcelo_activity.class);
-//                startActivity(m);
-//                break;
-//
-//            case R.id.btnPedro:
-//                Intent p = new Intent(MainActivity.this, verMaisPedro_activity.class);
-//                startActivity(p);
-//                break;
-//
-//            case R.id.btnRegis:
-//                Intent r = new Intent(MainActivity.this, verMaisRegis_activity.class);
-//                startActivity(r);
-//                break;
-//
-//            case R.id.btnRenan:
-//                Intent re = new Intent(MainActivity.this, verMaisRenan_activity.class);
-//                startActivity(re);
-//                break;
-//
-//            case R.id.btnSamuel:
-//                Intent s = new Intent(MainActivity.this, verMaisSamuel_activity.class);
-//                startActivity(s);
-//                break;
-//
-//            case R.id.btnVinicius:
-//                Intent vi = new Intent(MainActivity.this, verMaisVinicius_activity.class);
-//                startActivity(vi);
-//                break;
 
-        btnAm = (Button) findViewById(R.id.btnAm);
-        btnB = (Button) findViewById(R.id.btnB);
-        btnBh = (Button) findViewById(R.id.btnBh);
-        btnC = (Button) findViewById(R.id.btnC);
 
-        btnL = (Button) findViewById(R.id.btnL);
-        btnLf = (Button) findViewById(R.id.btnLf);
-        btnM = (Button) findViewById(R.id.btnM);
-        btnR = (Button) findViewById(R.id.btnR);
-        btnRg = (Button) findViewById(R.id.btnRn);
-        btnV = (Button) findViewById(R.id.btnV);
-        btnS = (Button) findViewById(R.id.btnS);
-        btnP = (Button) findViewById(R.id.btnP);
+
     }
 }
