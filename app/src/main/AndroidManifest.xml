@@ -13,29 +13,49 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".SplashScreen"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".NextScreen" />
-        <activity android:name=".Anderson" />
-        <activity android:name=".Gabriel" />
-        <activity android:name=".luis" />
-        <activity android:name=".Samuel" />
-        <activity android:name=".Breno" />
-        <activity android:name=".Bruno" />
-        <activity android:name=".Pedro" />
-        <activity android:name=".Camilo" />
-        <activity android:name=".Renan" />
-        <activity android:name=".Regis" />
-        <activity android:name=".Marcello" />
-        <activity android:name=".Lauro" />
-        <activity android:name=".Vinicius" />
-        <activity android:name=".Angelo"></activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NextScreen"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Anderson"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Gabriel"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".luis"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Samuel"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Breno"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Bruno"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Pedro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Camilo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Renan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Regis"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Marcello"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Lauro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Vinicius"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Angelo"
+            android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>

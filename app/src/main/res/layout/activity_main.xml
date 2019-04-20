@@ -416,11 +416,11 @@
 
             <ImageView
                 android:id="@+id/ivRenG"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="TODO"
                 android:scaleType="fitStart"
-                app:srcCompat="@drawable/reng"
-                android:contentDescription="TODO" />
+                app:srcCompat="@drawable/reng" />
 
             <Button
                 android:id="@+id/btnRn"
