@@ -1,5 +1,6 @@
 package com.example.brunohenrique.contactstudents;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -46,24 +47,68 @@ public class Vinicius extends AppCompatActivity implements Toolbar.OnMenuItemCli
     }
 
     @Override
-    public boolean onMenuItemClick(MenuItem menuItem) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         String texto = "";
-        switch (menuItem.getItemId()) {
+        Intent i;
+        switch (item.getItemId()) {
             case R.id.menu_add:
-                texto = "CADASTRAR";
-                break;
+                texto = "EM BREVE";
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
             case R.id.menu_ed:
-                texto = "EDITAR";
-                break;
+                texto = "LISTAR";
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
             case R.id.menu_del:
-                texto = "APAGAR";
-                break;
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
             case R.id.menu_help:
                 texto = "AJUDA";
-                break;
+                i = new Intent(this, Bruno.class);
+                startActivity(i);
+                return false;
             case android.R.id.home:
                 texto = "ICONE";
-                break;
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return true;
+        }
+        tvMenu.setText(texto);
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onMenuItemClick(MenuItem menuItem) {
+        String texto = "";
+        Intent i;
+        switch (menuItem.getItemId()) {
+            case R.id.menu_add:
+                texto = "ADICIONAR";
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
+            case R.id.menu_ed:
+                texto = "LISTAR";
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
+            case R.id.menu_del:
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
+            case R.id.menu_help:
+                texto = "AJUDA";
+                i = new Intent(this, Bruno.class);
+                startActivity(i);
+                return false;
+            case android.R.id.home:
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
         }
         tvMenu.setText(texto);
         return false;

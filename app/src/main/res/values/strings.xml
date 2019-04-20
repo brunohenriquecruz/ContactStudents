@@ -46,7 +46,7 @@
     <string name="menu_help">Ajuda</string>
 
     <!--TextView-->
-    <string name="tvMenu" />
+    <string name="tvMenu">Em breve</string>
     <string name="contatos">Contatos</string>
     <string name="competencias">Competências</string>
 

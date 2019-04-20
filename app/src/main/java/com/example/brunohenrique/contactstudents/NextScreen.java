@@ -1,5 +1,6 @@
 package com.example.brunohenrique.contactstudents;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -10,9 +11,10 @@ import android.widget.TextView;
 
 import java.text.BreakIterator;
 
-public class NextScreen extends AppCompatActivity implements OnMenuItemClickListener {
+public class NextScreen extends AppCompatActivity implements Toolbar.OnMenuItemClickListener {
 
     TextView tvMenu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,13 +22,6 @@ public class NextScreen extends AppCompatActivity implements OnMenuItemClickList
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.mipmap.ic_launcher);
-
-        tvMenu = (TextView) findViewById(R.id.tvMenu);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.tbBack);
-        toolbar.inflateMenu(R.menu.activity_menu);
-        toolbar.setTitle("Atalho");
-        toolbar.setNavigationIcon(R.mipmap.ic_launcher);
-        toolbar.setOnMenuItemClickListener(this);
 
     }
 
@@ -39,22 +34,32 @@ public class NextScreen extends AppCompatActivity implements OnMenuItemClickList
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         String texto = "";
+        Intent i;
         switch (item.getItemId()) {
             case R.id.menu_add:
-                texto = "CADASTRAR";
-                break;
+                texto = "EM BREVE";
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
             case R.id.menu_ed:
-                texto = "EDITAR";
-                break;
+                texto = "LISTAR";
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
             case R.id.menu_del:
-                texto = "APAGAR";
-                break;
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
             case R.id.menu_help:
                 texto = "AJUDA";
-                break;
+                i = new Intent(this, Bruno.class);
+                startActivity(i);
+                return false;
             case android.R.id.home:
-                texto = "Redirecionado";
-                break;
+                texto = "ICONE";
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return true;
         }
         tvMenu.setText(texto);
 
@@ -64,24 +69,34 @@ public class NextScreen extends AppCompatActivity implements OnMenuItemClickList
     @Override
     public boolean onMenuItemClick(MenuItem menuItem) {
         String texto = "";
+        Intent i;
         switch (menuItem.getItemId()) {
             case R.id.menu_add:
-                texto = "CADASTRAR";
-                break;
+                texto = "ADICIONAR";
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
             case R.id.menu_ed:
-                texto = "EDITAR";
-                break;
+                texto = "LISTAR";
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
             case R.id.menu_del:
-                texto = "APAGAR";
-                break;
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
             case R.id.menu_help:
                 texto = "AJUDA";
-                break;
+                i = new Intent(this, Bruno.class);
+                startActivity(i);
+                return false;
             case android.R.id.home:
-                texto = "ICONE";
-                break;
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
         }
         tvMenu.setText(texto);
         return false;
     }
+
 }

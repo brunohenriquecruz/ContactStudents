@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         tvMenu = (TextView) findViewById(R.id.tvMenu);
         Toolbar toolbar = (Toolbar) findViewById(R.id.tbBack);
         toolbar.inflateMenu(R.menu.activity_menu);
-        toolbar.setTitle("Atalho");
         toolbar.setNavigationIcon(R.mipmap.ic_launcher);
         toolbar.setOnMenuItemClickListener(this);
 
@@ -83,24 +82,80 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
     }
 
     @Override
-    public boolean onMenuItemClick(MenuItem menuItem) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         String texto = "";
-        switch (menuItem.getItemId()) {
+        Intent in;
+
+        switch (item.getItemId()) {
             case R.id.menu_add:
-                texto = "CADASTRAR";
-                break;
+                texto = "EM BREVE";
+                in = new Intent(this, NextScreen.class);
+                startActivity(in);
+                return true;
+
             case R.id.menu_ed:
-                texto = "EDITAR";
-                break;
+                texto = "LISTAR";
+                in = new Intent(this, MainActivity.class);
+                startActivity(in);
+                return true;
+
             case R.id.menu_del:
                 texto = "APAGAR";
-                break;
+                in = new Intent(this, NextScreen.class);
+                startActivity(in);
+                return true;
+
             case R.id.menu_help:
                 texto = "AJUDA";
-                break;
+                in = new Intent(this, Bruno.class);
+                startActivity(in);
+                return true;
+
             case android.R.id.home:
                 texto = "ICONE";
-                break;
+                in = new Intent(this, MainActivity.class);
+                startActivity(in);
+                return true;
+        }
+        tvMenu.setText(texto);
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onMenuItemClick(MenuItem menuItem) {
+        String texto = "";
+        Intent i;
+
+        switch (menuItem.getItemId()) {
+            case R.id.menu_add:
+                texto = "EM BREVE";
+                 i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
+
+            case R.id.menu_ed:
+                texto = "LISTAR";
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
+
+            case R.id.menu_del:
+                texto = "APAGAR";
+                i = new Intent(this, NextScreen.class);
+                startActivity(i);
+                return false;
+
+            case R.id.menu_help:
+                texto = "AJUDA";
+                i = new Intent(this, Bruno.class);
+                startActivity(i);
+                return false;
+
+            case android.R.id.home:
+                texto = "ICONE";
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                return false;
         }
         tvMenu.setText(texto);
         return false;
